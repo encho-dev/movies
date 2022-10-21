@@ -1,0 +1,62 @@
+.moviesContainer {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.searchBox{
+    height: 50px;
+    width: 100%;
+}
+.searchBox input{
+    height: 100%;
+    width: 40%;
+    
+    
+    
+}
+.searchBox button{
+    height: 100%;
+    width: 200px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px;
+}
+.addbutton{
+    color: white;
+    background-color: purple;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius:10px;
+}
+
+.favoritesContainer {
+    margin-top:300px;
+    background-color: teal;
+}
+.movieContainer {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    background-color: teal;
+  }
+  
+  .movieContainer img {
+    height: 70vh;
+    
+  }
+  
+  .movieContainer div {
+    font-size: 20px;
+    padding: 50px;
+    width: 500px;
+    background-color: teal;
+  }
+  .moviescontainer{
+      background-color: teal;
+  }
